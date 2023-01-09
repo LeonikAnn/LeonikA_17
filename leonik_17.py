@@ -15,3 +15,4 @@ cursor.execute('''INSERT INTO fio(name, surname, age) VALUES ('Tanya','Usmanova'
 cursor.execute('''INSERT INTO animals(name, age) VALUES ('Tiger', 5)''')
 cursor.execute('''INSERT INTO animals(name, age) VALUES ('Lion', 7)''')
 cursor.execute('''INSERT INTO animals(name, age) VALUES ('Monkey', 5)''')
+conn.commit()
